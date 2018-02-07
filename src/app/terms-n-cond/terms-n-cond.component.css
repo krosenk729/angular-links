@@ -1,0 +1,24 @@
+main{
+	color: white;
+}
+
+.container{
+	padding: 2em;
+	position: relative;
+}
+
+ul li{
+	margin:0 1.5em;
+	list-style-type:disc;
+	text-align: left;
+}
+
+.back-btn{
+	position: absolute;
+	left: 0;
+	top: 2em;
+}
+
+.back-bottom{
+	margin: 2em;
+}

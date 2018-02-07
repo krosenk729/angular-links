@@ -1,0 +1,160 @@
+import { Site } from './Site';
+
+export const SITES: Site[] = [
+	{
+		id: 1,
+		category: 'Fitness',
+		name: 'Classpass',
+		desc_short: `Take classes without taking a cut out of your wallet`,
+		desc: `Pay one time to one website and partake in group workout classes at a bajillion studios. Simply sign up and show up -- no gym memberships or complicated paperwork. Your workout should be about fitness -- not about working out the paperwork.`,
+		worth: 55,
+		link: 'http://classp.as/2zoSrNL',
+		cta: 'Become a Classpasser',
+		img: 'assets/img/classpass.jpg',
+		rating: 5
+	},
+	{
+		id: 2,
+		category: 'Fitness',
+		name: 'Athleta',
+		desc_short: `Athletic apparel made to transition from street to sweat`,
+		desc: `Forget feeling like your clothes aren\'t working with you. Clothes made to work into  your wardrobe that make working out and the time between working out fashionable.`,
+		worth: 20,
+		link: 'http://refer.athleta.com/s/krosenk729',
+		cta: 'Dress Like You Workout',
+		img: 'assets/img/athleta.jpg',
+		rating: 5
+	},
+	{
+		id: 3,
+		category: 'Fitness',
+		name: 'Fitbit',
+		desc_short: `Make your steps count. Let someone else count them`,
+		desc: `No bulky bands. No intrusive wearable. Just a fitness tracker.`,
+		worth: 15,
+		link: 'https://www.ebates.com/fitbit.com_15170-xfas?sourceName=Web-Desktop',
+		cta: 'Quantify Your Progress',
+		img: 'assets/img/fitbit.jpg',
+		rating: 5
+	},
+	{
+		id: 4,
+		category: 'Fitness',
+		name: 'Lucky Vitamin',
+		desc_short: `Energy should be spent working out - not finding fuel. Daily low prices on protein and supplements`,
+		desc: `Get the protein bars, snacks and organic beauty brands you love in pretty much any quantity without shrinking your wallet.`,
+		worth: 15,
+		link: 'https://www.ebates.com/luckyvitamin.com_10674-xfas?sourceName=Web-Desktop',
+		cta: 'Order Some Protein',
+		img: 'assets/img/luckyvitamin.jpg',
+		rating: 5
+	},
+	{
+		id: 5,
+		category: 'Life & Time',
+		name: 'Instacart',
+		desc_short: `Groceries arive at your door from your local stores.`,
+		desc: `I used to think grocery delivery was for rich people who could pay surcharges and huge delivery fees. Then I tried instacart and got free delivery, fast delivery and my items were pickedout/delivered by humans from the store I shop at doown the street. Basically no downsides to this at all.`,
+		worth: 10,
+		link: 'https://inst.cr/t/uXDBTnrmf',
+		cta: 'Get Groceries',
+		img: 'assets/img/instacart.jpg',
+		rating: 5
+	},
+	{
+		id: 6,
+		category: 'Life & Time',
+		name: 'Ebates',
+		desc_short: `Get a percent back for every purchase you make if you start your shopping search from this site.`,
+		desc: `I've always been skeptical about online money schemes and signing up for too much stuff. But you can protect yourself through paypal here and basically just get cash sent back to you four times a year. What is the catch? You have to use it for it to work. After ten years, that's the only downside I've been able to find.`,
+		worth: 10,
+		link: 'https://www.ebates.com/r/KROSEN48?eeid=28187',
+		cta: 'Get Money For Spending It',
+		img: 'assets/img/ebates.jpg',
+		rating: 5
+	},
+	{
+		id: 7,
+		category: 'Life & Time',
+		name: 'Amazon',
+		desc_short: `Do you really want to create a shopping list, wait for the things you need, go to the store, try to find that list, try to find the things on the list in the store and then go through the checkout process? All. the. time.?`,
+		desc: `Instead of spending your life doing errands and shopping, just order a thing on Amazon (yes, you can order one at a time) and it'll show up at your door. So you can spend time doing other stuff. Unless you like taking part in the struggle`,
+		worth: 10,
+		link: 'http://a.co/byan6Vq',
+		cta: 'Outsource Your Time',
+		img: 'assets/img/amazon.jpg',
+		rating: 5
+	},
+	{
+		id: 13,
+		category: 'Computer-y Things',
+		name: 'Bluehost',
+		desc_short: `You can buy a domain name anywhere. But how easy is it to deploy your site to that domain? Bluehost is like pressing the easy button.`,
+		desc: `Some sites let you buy domains but then getting DNS figured out is a bomb. Other sites host but getting that running feels harder than filing for taxes. Bluehost is what domain purchasing and site hosting should be like in ${new Date().getFullYear()}`,
+		worth: 10,
+		link: 'https://www.bluehost.com/track/websited/',
+		cta: 'Get a Domain, Host a Site',
+		img: 'assets/img/bluehost.jpg',
+		rating: 5
+	},
+	{
+		id: 15,
+		category: 'Computer-y Things',
+		name: 'Built With',
+		desc_short: `Wondering if that site Wordpress or what javascript libraries it is usng? Wonder about something else`,
+		desc: `See what hosting services, email providers, SSL certs, CMSs, frameworks, widgets and libraries a site is using in no time.`,
+		worth: 10,
+		link: 'https://builtwith.com/',
+		cta: 'Be a Sneeky Dev',
+		img: 'assets/img/builtwith.png',
+		rating: 5
+	},
+	{
+		id: 16,
+		category: 'Computer-y Things',
+		name: 'AlternativeTo',
+		desc_short: `Instead of searching Google for "alternative to XYZ software," search the alternatives here`,
+		desc: `Want a freemium version? How about a tool that works on multiple operating systems? Favorite software depreciated? Search alternatives AND read reviews`,
+		worth: 10,
+		link: 'https://alternativeto.net/',
+		cta: 'Find a Better Thing',
+		img: 'assets/img/alternativeto.png',
+		rating: 5
+	},
+	{
+		id: 17,
+		category: 'Computer-y Things',
+		name: 'Creative Market',
+		desc_short: `When you are tired of seeing the same stock photos everywhere also struggle to find unique ones yourself, check out Creative Market`,
+		desc: `blah`,
+		worth: 10,
+		link: 'https://crmrkt.com/J9l',
+		cta: 'Get Assets. Design Assets',
+		img: 'assets/img/creativemarket.jpg',
+		rating: 5
+	},
+	{
+		id: 18,
+		category: 'Computer-y Things',
+		name: 'Code School',
+		desc_short: `Learn to code by doing it in little exercises.`,
+		desc: `Forget one-page, confusing tutorials with missing steps and beaucoup bucks spend on bootcamps, this is a solid program and its pricetag aint bad. Know the code you don't know with Code School.`,
+		worth: 10,
+		link: 'https://www.codeschool.com/',
+		cta: 'Learn Code Interactively',
+		img: 'assets/img/codeschool.jpg',
+		rating: 5
+	},
+	{
+		id: 19,
+		category: 'Computer-y Things',
+		name: 'Guerilla Mail',
+		desc_short: `Temporary inboxes and throwaway email service -- because I don't want to sign up for things but I do want your free download`,
+		desc: `Sometimes sites make you verify an email address so their marketing team can pelt you with emails (or I guess there are other security reasons too *eyeroll*). Use Gurilla Mail as a temporary email inbox and protect your personal email address (SUPER useful in testing guys)`,
+		worth: 10,
+		link: 'https://www.guerrillamail.com/',
+		cta: 'Use a Temporary Inbox',
+		img: 'assets/img/guerillamail.png',
+		rating: 5
+	}
+];

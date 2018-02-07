@@ -1,0 +1,22 @@
+<div *ngIf="site" class="drawer card-body indigo darken-4">
+	<div>
+		<h2>{{site.name}}</h2>
+		<a class="hide-btn waves-effect waves-light btn" (click)="close()" href="#">Hide Me <i class="material-icons left">close</i></a>
+		<form>
+		  <!-- <fieldset>
+		    <span class="star-cb-group">
+		      <input type="radio" id="rating-5" [(ngModel)]="site.rating" value="5" /><label for="rating-5">5</label>
+		      <input type="radio" id="rating-4" [(ngModel)]="site.rating" value="4" checked="checked" /><label for="rating-4">4</label>
+		      <input type="radio" id="rating-3" [(ngModel)]="site.rating"" value="3" /><label for="rating-3">3</label>
+		      <input type="radio" id="rating-2" [(ngModel)]="site.rating" value="2" /><label for="rating-2">2</label>
+		      <input type="radio" id="rating-1" [(ngModel)]="site.rating" value="1" /><label for="rating-1">1</label>
+		      <input type="radio" id="rating-0" [(ngModel)]="site.rating" value="0" class="star-cb-clear" /><label for="rating-0">0</label>
+		    </span>
+		  </fieldset> -->
+		</form>
+	</div>
+	<h6>{{site.desc_short}}</h6>
+  	<div class="divider"></div>
+	<p>{{site.desc}}</p>
+	<a class="btn" [href]="site.link" target="_blank">{{site.cta}}</a>
+</div>

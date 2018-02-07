@@ -1,0 +1,13 @@
+.nav-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .brand-logo{
+	position: relative;
+}
+
+.page-footer .container{
+	padding-bottom: 2em;
+}

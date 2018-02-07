@@ -1,0 +1,22 @@
+<header>
+<nav>
+<div class="nav-wrapper indigo darken-4">
+  <ul class="left">
+   <li (click)="onSelect(-1)"><a class="btn-floating waves-effect waves-light indigo darken-1" href="#"><i class="material-icons">chevron_left</i></a></li>
+ </ul>  
+  <h3 class="brand-logo">For {{categories[current]}}</h3>
+ <ul class="right">
+   <li (click)="onSelect(1)"><a class="btn-floating waves-effect waves-light indigo darken-1"  href="#"><i class="material-icons">chevron_right</i></a></li>
+ </ul>
+</div>
+</nav>
+</header>
+<main class="main">
+	<app-sites [category]="categories[current]"></app-sites>
+</main>
+
+<footer class="page-footer indigo darken-4">
+    <div class="container center">
+    <a routerLink="/tnc" routerLinkActive="active" class="grey-text text-lighten-4 center">Terms Plus Conditions Yo</a>
+    </div>
+</footer>
