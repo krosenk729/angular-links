@@ -7,7 +7,7 @@ flex-direction: column;
 main {
 flex: 1 0 auto;
 }
-
-a.more-link{
-	
+a.btn, button.btn, .btn{
+	height: auto;
+	line-height: 1.1;
 }

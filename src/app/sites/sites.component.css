@@ -6,24 +6,49 @@
 
 .card{
 	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	padding: .2em;
 }
 
 .card:nth-child(2n+1){
 	flex-direction: row-reverse;
 }
 
-.card-action{
+.card-content{
+	flex-basis: 70%;
+	flex-grow: 1;
+}
+.card-w2{
 	text-align: center;
+	flex-basis: 30%;
+	margin-bottom: 8px;
+	flex-shrink: 0;
+	min-width: 200px;
 }
 
-.card-action .card-image{
+.card-action .card-w2{
 	margin: 0 auto;
 }
 
-.card-image > img{
-	border-radius: 50%;
+.card-w2 > img{
+	border-radius: 100%;
+	max-width: 50%;
 }
 
-@media screen and (max-width: 500px){
+a.btn, button.btn, .btn{
+	height: auto;
+	line-height: 1.1;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+@media screen and (max-width: 550px){
 	.card{ width: 95%; }
+}
+
+@media screen and (max-width: 450px){
+	.card{ flex-wrap: wrap; }
+	.card-content{ padding: 8px; }
+	.card-w2{ flex-basis: 100%; }
 }

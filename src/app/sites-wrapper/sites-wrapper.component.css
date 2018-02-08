@@ -4,10 +4,19 @@
 	align-items: center;
 }
 
-nav .brand-logo{
-	position: relative;
+nav .current-view{
+	font-size: 2.1rem;
+}
+a.btn, button.btn, .btn{
+	height: auto;
+	line-height: 1.1;
 }
 
 .page-footer .container{
 	padding-bottom: 2em;
+}
+
+@media screen and (max-width: 450px){
+	nav .current-view{ font-size: 1.6rem; }
+	nav { height: auto; }
 }
