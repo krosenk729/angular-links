@@ -1,6 +1,6 @@
 <app-site-details id="drawer" [(site)]="featSite" (unFeature)="unFeature()" class="col s10 offset-s1"></app-site-details>
 <div class="row">
-	<div *ngFor="let site of (sites | categorySite: category)" class="card col">
+	<div *ngFor="let site of (sites | categorySite: category)" class="card col" [@flyInOut]="'in'">
 			<div class="card-content">
 				<span class="card-title grey-text text-darken-4">
 					{{site.name}}
